@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{F301DE2C-57D0-40EE-84A7-E45A2A353AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - API", "0 - API", "{F82160B6-62F4-47CA-9863-1EAC3AE7773D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADN.Domain", "ADN.Domain\ADN.Domain.csproj", "{7DE235C6-9404-4989-B081-86A931CC291F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DE235C6-9404-4989-B081-86A931CC291F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE235C6-9404-4989-B081-86A931CC291F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE235C6-9404-4989-B081-86A931CC291F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE235C6-9404-4989-B081-86A931CC291F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DE235C6-9404-4989-B081-86A931CC291F} = {F301DE2C-57D0-40EE-84A7-E45A2A353AB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57150B1B-4E50-44E8-9E08-715DB3D68ABB}
+	EndGlobalSection
+EndGlobal
