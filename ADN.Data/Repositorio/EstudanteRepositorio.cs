@@ -8,7 +8,7 @@ namespace ADN.Data.Repositorio
 {
     public class EstudanteRepositorio : IEstudanteRepositorio
     {
-        private readonly IMongoCollection<Estudante> _collection;        
+        private readonly IMongoCollection<Estudante> _collection;
 
         public EstudanteRepositorio(IOptions<MongoDBEstudanteSettings> mongoEstudanteSettings)
         {
